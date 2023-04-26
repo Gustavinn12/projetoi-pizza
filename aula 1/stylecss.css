@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    
+}
+@font-face{
+    font-family:;
+    src: url(Monday\ Miracle.otf);
+}
+header{
+    height: 500px;
+    background-image: url(pexels-kristina-paukshtite-1146760.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;/*ajustar imagem background*/
+    background-position: center;/*ajustar imagem background*/
+}
+nav ul{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    color: azure;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+h1{
+    color:bisque;
+    text-align: center;
+    font-weight: 400;
+    
+}
+h2{
+    color: bisque;
+    text-align: center;
+    font-style: unset;
+    font-weight: 400;
+}
+section{
+    height: 600px;
+    background-color:goldenrod;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card{
+    width: 20%;
+    height: 400px;
+    border: 1px solid black;
+}
+#img-card{
+    height: 300px;
+
+}
+#texto-card{
+    height: 100px;
+    background-color:white;
+    color: black;
+    
+    
+}
